@@ -7,7 +7,7 @@ export const counterSlice = createSlice({
     initialState,
     reducers:{
         increment : (state)=>{
-            state.value += 1; //imer is helping to manipulate indirectly
+            state.value += 1; //Imer is helping to manipulate indirectly
         },
         decrement : (state)=>{
             state.value -= 1; 
